@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script 
+        type="text/javascript" 
+        src="https://unpkg.com/bsv@1.5.3/bsv.min.js">
+    </script>
+    <link rel="stylesheet" href="index.css">
+    
+    <title>Wallet</title>
+</head>
+<body>
+    <p id="head"> Bitcoin Wallet</p>
+    <div class="pr-key">
+        <h1>
+            The Private key is: <p id="private-key"></p>
+        </h1>
+        
+    </div>
+    <div class="pu-key">
+        <h1>
+            The public key is: <p id="public-key"></p>
+        </h1>
+        
+    </div>
+    <div class="w-address">
+        <h1>
+            The Address is: <p id="address"></p>
+        </h1>
+        
+    </div>
+    <button onclick="clicked()">Generate</button>
+    <script src="index.js"></script>
+    
+</body>
+</html>
